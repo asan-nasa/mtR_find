@@ -7,7 +7,7 @@ mtR_find is a tool for identification and annotation of sequences mapping to mit
 
 mtR_find.py <species_name> <RNA_type> [--FASTA path/to/mitochondrial genome.fa file] [-GTF path/to/gtf file] [--graphical_output yes/no][--output_path path/to/folder] [--input_path path/to/folder] [--files list of files] [--parallel YES/NO] 
 
-The species name and RNA type are required arguments. The others listed above are optional arguments
+Required arguments: The species name and RNA type are required arguments. The others listed above are optional arguments
 
 Valid species name values:<br />
 (1) dre - for zebrafish <br />
@@ -24,6 +24,17 @@ Valid RNA type: <br />
 <br />
 Optional Arguments:<br />
 <br />
+--parallel:  default value is "NO". If users want to suspend multuprocessing, they have to specify "YES".<br />
+--FASTA and -GTF: by default if users specify anyone of the 6 species code (listed above), the script would download the FASTA and GTF file automatically. In case if users want to analyze mtsRNAs/mtlncRNAs in any other species, they would have to manually download the mitochondrial genome FASTA file
+<br />
+--input_path: defalut value is current working directory. But users can specify a input path<br />
+--graphical_output: No. If graphical output of the basic plots has to be generated, the user has to specify
+“yes” under graphical_output <br />
+--files: defalut value is "None". If the files are in different locations, the absolute path of the files can be
+specified. Note: if –input_path is specified, --files cannot be specified. If –files
+argument is specified, files in the current working directory will not be analyzed,
+even though the output directory will be the current working directory – unless a
+different output path is specified using –output_path argument. <br />
 
 ## Usage examples:
 To analyze mtsRNA with zebrafish as species name and if the current directory has all FASTQ files <br />
