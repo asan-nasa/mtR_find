@@ -35,4 +35,8 @@ To analyze mtsRNA with zebrafish as species name and to specify no graphical out
 python mtR_find.py dre --graphical_output no <br />
 <br />
 To analyze mtsRNA with zebrafish as species name and to suspend multiprocessing <br />
-python mtR_find.py dre --parallel NO
+python mtR_find.py dre --parallel NO  <br />
+<br />
+To analyze mtsRNA with zebrafish as species name and if the current directory has all FASTQ files <br />
+python mtR_find.py dre lncRNA  <br />
+
