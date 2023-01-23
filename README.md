@@ -13,7 +13,10 @@ Valid species name values:<br />
 (1) dre - for zebrafish <br />
 (2) hsa - for humans <br />
 (3) mmu - for mouse <br />
-(4) dme - for Drosophila <br />
+(4) dme - for drosophila <br />
+(5) xen - for xenophus <br />
+(6) gal - for chicken <br />
+
 <br />
 Valid RNA type: <br />
 (1) sRNA - for mitochondrial sRNA <br />
