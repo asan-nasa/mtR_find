@@ -16,6 +16,8 @@ Valid species name values:<br />
 (4) dme - for drosophila <br />
 (5) xen - for xenophus <br />
 (6) gal - for chicken <br />
+(7) rno - for rat <br />
+(7) non_model - for species not listed above <br />
 
 <br />
 Valid RNA type: <br />
