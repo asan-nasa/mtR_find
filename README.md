@@ -22,13 +22,13 @@ Valid RNA type: <br />
 Optional Arguments:<br />
 <br />
 ## Usage examples:
-For Zebrafish as species name and if the current directory has all FASTQ files
-python mtR_find.py dre
-For Zebrafish as species name and to specify filenames explicitly
-python mtR_find.py dre --files filename1.fastq filename2.fastq
-For Zebrafish as species name and to specify path to folder containing FASTQ files
-python mtR_find.py dre --path path/to/folder
-For Zebrafish as species name and to specify no graphical output
-python mtR_find.py dre --graphical_output no
-For Zebrafish as species name and to suspend multiprocessing 
+For Zebrafish as species name and if the current directory has all FASTQ files <br />
+python mtR_find.py dre <br />
+For Zebrafish as species name and to specify filenames explicitly <br />
+python mtR_find.py dre --files filename1.fastq filename2.fastq <br />
+For Zebrafish as species name and to specify path to folder containing FASTQ files <br />
+python mtR_find.py dre --path path/to/folder <br />
+For Zebrafish as species name and to specify no graphical output <br />
+python mtR_find.py dre --graphical_output no <br />
+For Zebrafish as species name and to suspend multiprocessing <br />
 
