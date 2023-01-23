@@ -29,8 +29,8 @@ Optional Arguments:<br />
 --parallel:  default value is "NO". If users want to suspend multuprocessing, they have to specify "YES".<br />
 --FASTA and -GTF: by default if users specify anyone of the 6 species code (listed above), the script would download the FASTA and GTF file automatically. In case if users want to analyze mtsRNAs/mtlncRNAs in any other species, they would have to manually download the mitochondrial genome FASTA file
 <br />
---input_path: defalut value is current working directory. But users can specify a input path<br />
-
+--input_path: defalut value is current working directory. Users can specify a input path <br />
+--output_path: defalut value is current working directory. Users can specify a output path <br />
 
 --files: defalut value is "None". If the files are in different locations, the absolute path of the files can be
 specified. Note: if –input_path is specified, --files cannot be specified. If –files
