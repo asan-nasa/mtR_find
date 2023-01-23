@@ -9,18 +9,18 @@ mtR_find.py <species_name> <RNA_type> [--FASTA path/to/mitochondrial genome.fa f
 
 The species name and RNA type are required arguments. The others listed above are optional arguments
 
-Valid species name values:
-(1) dre - for zebrafish
-(2) hsa - for humans
-(3) mmu - for mouse
-(4) dme - for Drosophila
-
-Valid RNA type:
-(1) sRNA - for mitochondrial sRNA
-(2) lncRNA - for mitochondrial long non-coding RNA
-
-Optional Arguments:
-
+Valid species name values:<br />
+(1) dre - for zebrafish <br />
+(2) hsa - for humans <br />
+(3) mmu - for mouse <br />
+(4) dme - for Drosophila <br />
+<br />
+Valid RNA type: <br />
+(1) sRNA - for mitochondrial sRNA <br />
+(2) lncRNA - for mitochondrial long non-coding RNA <br />
+<br />
+Optional Arguments:<br />
+<br />
 ## Usage examples:
 For Zebrafish as species name and if the current directory has all FASTQ files
 python mtR_find.py dre
