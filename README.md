@@ -24,6 +24,7 @@ Valid RNA type: <br />
 <br />
 Optional Arguments:<br />
 <br />
+
 ## Usage examples:
 To analyze mtsRNA with zebrafish as species name and if the current directory has all FASTQ files <br />
 python mtR_find.py dre sRNA <br />
