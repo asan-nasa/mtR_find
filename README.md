@@ -30,13 +30,14 @@ Optional Arguments:<br />
 --FASTA and -GTF: by default if users specify anyone of the 6 species code (listed above), the script would download the FASTA and GTF file automatically. In case if users want to analyze mtsRNAs/mtlncRNAs in any other species, they would have to manually download the mitochondrial genome FASTA file
 <br />
 --input_path: defalut value is current working directory. But users can specify a input path<br />
---graphical_output: No. If graphical output of the basic plots has to be generated, the user has to specify
-“yes” under graphical_output <br />
+
+
 --files: defalut value is "None". If the files are in different locations, the absolute path of the files can be
 specified. Note: if –input_path is specified, --files cannot be specified. If –files
 argument is specified, files in the current working directory will not be analyzed,
 even though the output directory will be the current working directory – unless a
 different output path is specified using –output_path argument. <br />
+--graphical_output: No. If graphical output of the basic plots has to be generated, the user has to specify “yes” under graphical_output. If "YES" is specified, then it is also mandatory to specify a metadata file. This metadata file should contain the filenames as the first column and the condition/factor as the second column <br />
 
 ## Usage examples:
 To analyze mtsRNA with zebrafish as species name and if the current directory has all FASTQ files <br />
