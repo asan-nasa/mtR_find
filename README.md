@@ -5,4 +5,4 @@ mtR_find is a tool for identification and annotation of sequences mapping to mit
 
 ## Usage:
 
-mtR_find.py <species_name> <sRNA or lncRNA> [--FASTA path/to/mitochondrial genome.fa file] [-GTF path/to/gtf file] [--graphical_output yes/no][--output_path path/to/folder] [--input_path path/to/folder] [--files list of files]
+mtR_find.py <species_name> <RNA type> [--FASTA path/to/mitochondrial genome.fa file] [-GTF path/to/gtf file] [--graphical_output yes/no][--output_path path/to/folder] [--input_path path/to/folder] [--files list of files] [--parallel YES/NO] 
