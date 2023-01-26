@@ -31,6 +31,8 @@ Optional Arguments:<br />
 <br />
 --input_path: defalut value is current working directory. Users can specify a input path <br />
 --output_path: defalut value is current working directory. Users can specify a output path <br />
+--cutoff: default value = 200. cutoff corresponds to the threshold value of the total ncRNA count of individual ncRNAs from all the libraries combined together. For example, a cutoff value of 200 would discard ncRNA sequences with total count (from all libraries) less than 200.
+--filter, default = 50, a length filter applicable only for mt-lncRNAs, if users want to study only lncRNAs greater than 200, they can specify "--filter 200" in the command line
 
 --files: defalut value is "None". If the files are in different locations, the absolute path of the files can be
 specified. Note: if –input_path is specified, --files cannot be specified. If –files
