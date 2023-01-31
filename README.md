@@ -61,6 +61,7 @@ To analyze mtsRNA with zebrafish as species name and if the current directory ha
 python mtR_find.py dre lncRNA  <br />
 
 Note: bowtie and samtools should be added to PATH. More information can be found here:<br />
+
 https://phoenixnap.com/kb/linux-add-to-path <br />
 <br />
 https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path <br />
