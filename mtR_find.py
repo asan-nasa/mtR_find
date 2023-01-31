@@ -253,7 +253,7 @@ if (args.species_name == "dre") and (args.non_model==None):
    if not os.path.exists("bowtie-index"):
     os.makedirs("bowtie-index")
    index = "bowtie-index/zebra_MT_index"
-   command = "bowtie-build MT_genome/Danio_rerio.GRCz11.dna.chromosome.MT.fa " + index +  " 2> bowtie_build.txt"
+   command = "bowtie-build MT_genome/Danio_rerio.GRCz11.dna.chromosome.MT.fa " + index +  " > bowtie_build.txt"
    os.system(command)
    os.chdir("../")
    print("Downloading gtf annotation file .......")
@@ -283,7 +283,7 @@ elif (args.species_name == "hsa") and (args.non_model==None):
    if not os.path.exists("bowtie-index"):
     os.makedirs("bowtie-index")
    index = "bowtie-index/human_MT_index"
-   command = "bowtie-build MT_genome/Homo_sapiens.GRCh38.dna.chromosome.MT.fa " + index +  " 2> bowtie_build.txt"
+   command = "bowtie-build MT_genome/Homo_sapiens.GRCh38.dna.chromosome.MT.fa " + index +  " > bowtie_build.txt"
    os.system(command)
    os.chdir("../")
    print("Downloading gtf annotation file .......")
@@ -311,7 +311,7 @@ elif (args.species_name == "mmu") and (args.non_model==None):
    if not os.path.exists("bowtie-index"):
     os.makedirs("bowtie-index")
    index = "bowtie-index/mouse_MT_index"
-   command = "bowtie-build MT_genome/Mus_musculus.GRCm38.dna.chromosome.MT.fa " + index +  " 2> bowtie_build.txt"
+   command = "bowtie-build MT_genome/Mus_musculus.GRCm38.dna.chromosome.MT.fa " + index +  " > bowtie_build.txt"
    os.system(command)
    os.chdir("../")
    print("Downloading gtf annotation file .......")
@@ -340,7 +340,7 @@ elif (args.species_name == "rno") and (args.non_model==None):
    if not os.path.exists("bowtie-index"):
     os.makedirs("bowtie-index")
    index = "bowtie-index/Rat_MT_index"
-   command = "bowtie-build MT_genome/Rattus_norvegicus.Rnor_6.0.dna.chromosome.MT.fa " + index +  " 2> bowtie_build.txt"
+   command = "bowtie-build MT_genome/Rattus_norvegicus.Rnor_6.0.dna.chromosome.MT.fa " + index +  " > bowtie_build.txt"
    os.system(command)
    os.chdir("../")
    print("Downloading gtf annotation file .......")
@@ -368,7 +368,7 @@ elif (args.species_name == "gga") and (args.non_model==None):
    if not os.path.exists("bowtie-index"):
     os.makedirs("bowtie-index")
    index = "bowtie-index/chicken_MT_index"
-   command = "bowtie-build MT_genome/Gallus_gallus.Gallus_gallus-5.0.dna.chromosome.MT.fa " + index +  " 2> bowtie_build.txt"
+   command = "bowtie-build MT_genome/Gallus_gallus.Gallus_gallus-5.0.dna.chromosome.MT.fa " + index +  " > bowtie_build.txt"
    os.system(command)
    os.chdir("../")
    print("Downloading gtf annotation file .......")
@@ -395,7 +395,7 @@ elif (args.species_name == "xen") and (args.non_model==None):
    if not os.path.exists("bowtie-index"):
     os.makedirs("bowtie-index")
    index = "bowtie-index/frog_MT_index"
-   command = "bowtie-build MT_genome/Xlaevis_mito_seq.fa " + index +  " 2> bowtie_build.txt"
+   command = "bowtie-build MT_genome/Xlaevis_mito_seq.fa " + index +  " > bowtie_build.txt"
    os.system(command)
    os.chdir("../")
    print("Downloading gtf annotation file .......")
@@ -414,7 +414,7 @@ elif (args.species_name == "non_model"):
    os.chdir("..")
    index = "bowtie-index/non_model_index"
    print("Creating bowtie index from the specified FASTA file")
-   command = "bowtie-build " + args.FASTA + " " + "non_model/" + index +  " 2> bowtie_build.txt"
+   command = "bowtie-build " + args.FASTA + " " + "non_model/" + index +  " > bowtie_build.txt"
    os.system(command)
    infile= open(args.GTF, "r")
    annotation = extract_MT(infile)
