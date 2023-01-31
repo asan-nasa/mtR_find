@@ -60,3 +60,4 @@ python mtR_find.py dre --suspend yes  <br />
 To analyze mtsRNA with zebrafish as species name and if the current directory has all FASTQ files <br />
 python mtR_find.py dre lncRNA  <br />
 
+Note: bowtie and samtools should be added to PATH.
