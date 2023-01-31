@@ -42,6 +42,8 @@ different output path is specified using –output_path argument. <br />
 --graphical_output: default values is "no". If graphical output of the basic plots has to be generated, the user has to specify “yes” under graphical_output. If "YES" is specified, then it is also mandatory to specify a metadata file. This metadata file should contain the filenames as the first column and the condition/factor as the second column <br />
 
 ## Usage examples:
+To analyze mtsRNA with human as species name and if the current directory has all FASTQ files <br />
+python mtR_find.py hsa sRNA <br />
 To analyze mtsRNA with zebrafish as species name and if the current directory has all FASTQ files <br />
 python mtR_find.py dre sRNA <br />
 <br />
