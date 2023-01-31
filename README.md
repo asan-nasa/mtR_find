@@ -60,4 +60,9 @@ python mtR_find.py dre --suspend yes  <br />
 To analyze mtsRNA with zebrafish as species name and if the current directory has all FASTQ files <br />
 python mtR_find.py dre lncRNA  <br />
 
-Note: bowtie and samtools should be added to PATH.
+Note: bowtie and samtools should be added to PATH. More information can be found here:<br />
+https://phoenixnap.com/kb/linux-add-to-path <br />
+<br />
+https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path <br />
+<br />
+https://opensource.com/article/17/6/set-path-linux <br />
