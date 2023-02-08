@@ -1,7 +1,7 @@
 # mtR_find
 ## Purpose:
 
-mtR_find is a tool for identification and annotation of sequences mapping to mitochondrial genomes. To run the script on adapter-trimmed FASTQ files, the following dependencies are required: pandas (version 0.21.0 and above), multiprocessing, bowtie (version 1.1.2 and above) and samtools (version 1.9 and above). If users want to output basic plots, then matplotlib PYTHON module is also needed (optional). 
+mtR_find is a tool for identification and annotation of sequences mapping to mitochondrial genomes. To run the script on adapter-trimmed FASTQ files, the following dependencies are required: pandas (version 0.21.0 and above), multiprocessing, bowtie (version 1.1.2 and above) and samtools (version 1.9 and above). If users want to output basic plots, then matplotlib PYTHON module is also needed (optional - version 2.0.2 and above). 
 
 ## Usage:
 
