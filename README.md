@@ -68,3 +68,19 @@ https://phoenixnap.com/kb/linux-add-to-path <br />
 https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path <br />
 <br />
 https://opensource.com/article/17/6/set-path-linux <br />
+
+# Test datasets
+## Adapter trimmed FASTQ files:
+
+Adpater trimming was performed on test datsets using Cutadapt version 1.5. If users are trimming raw files downloaded from SRA using other adpater trimming tools (other than Cutadapt) or differnt version of Cutadapt, there could be variations to the input data and hence would affect reproducibility of the results. To ensure reprdocubility, we have uploaded the adapter trimmed FASTQ files for test datasets and can be downloaded in the links provided below. Interested users who wanted to test mt_find on test data before testing on their own data, can download the adpater trimmed FASTQ files from the link below.  
+
+## Dataset-1:
+https://filesender.sikt.no/?s=download&token=8d84609a-53cc-49cd-b6af-15a491882a9a
+## Dataset-2:
+https://filesender.sikt.no/?s=download&token=9950ba9c-d3a4-4ff7-a840-7107aa225672
+## Dataset-3:
+https://filesender.sikt.no/?s=download&token=93f7f07b-db14-46d5-8772-a5f8f8cc3179
+
+## Results:
+
+The results from running mtR_find for each test dataset which inlcudes the output from mtR_find and nohup commonad line output can be found in the test folder, under sub-folders dataset-1, dataset-2 and dataset-3 respectively
