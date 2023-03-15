@@ -4,7 +4,7 @@
 Adpater trimming was performed on test datsets using Cutadapt version 1.5. If users are trimming raw files downloaded from SRA using other adpater trimming tools (other than Cutadapt) or differnt version of Cutadapt, there could be variations to the input data and hence would affect reproducibility of the results. To ensure reprdocubility, we have uploaded the adapter trimmed FASTQ files for test datasets and can be downloaded in the links provided below. Interested users who wanted to test mt_find on test data before testing on their own data, can download the adpater trimmed FASTQ files from the link below.  
 
 ## Dataset-1:
-https://filesender.sikt.no/?s=download&token=8d84609a-53cc-49cd-b6af-15a491882a9a
+https://filesender.sikt.no/?s=download&token=b9394076-93d4-4355-9f70-a9af440b5fdd
 ## Dataset-2:
 https://filesender.sikt.no/?s=download&token=9950ba9c-d3a4-4ff7-a840-7107aa225672
 ## Dataset-3:
