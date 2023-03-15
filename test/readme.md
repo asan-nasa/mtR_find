@@ -6,7 +6,7 @@ Adpater trimming was performed on test datsets using Cutadapt version 1.5. If us
 ## Dataset-1:
 https://filesender.sikt.no/?s=download&token=b9394076-93d4-4355-9f70-a9af440b5fdd
 ## Dataset-2:
-https://filesender.sikt.no/?s=download&token=9950ba9c-d3a4-4ff7-a840-7107aa225672
+https://filesender.sikt.no/?s=download&token=64ef9e9f-1a22-41c7-8d28-cf0c2470f0a8
 ## Dataset-3:
 https://filesender.sikt.no/?s=download&token=93f7f07b-db14-46d5-8772-a5f8f8cc3179
 
