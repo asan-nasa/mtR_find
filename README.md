@@ -75,11 +75,11 @@ https://opensource.com/article/17/6/set-path-linux <br />
 Adpater trimming was performed on test datsets using Cutadapt version 1.5. If users are trimming raw files downloaded from SRA using other adpater trimming tools (other than Cutadapt) or differnt version of Cutadapt, there could be variations to the input data and hence would affect reproducibility of the results. To ensure reprdocubility, we have uploaded the adapter trimmed FASTQ files for test datasets and can be downloaded in the links provided below. Interested users who wanted to test mt_find on test data before testing on their own data, can download the adpater trimmed FASTQ files from the link below.  
 
 ## Dataset-1:
-https://filesender.sikt.no/?s=download&token=b9394076-93d4-4355-9f70-a9af440b5fdd
+https://filesender.sikt.no/?s=download&token=dcb87ce5-7224-4900-bd3b-5ec1a4295d09
 ## Dataset-2:
-https://filesender.sikt.no/?s=download&token=64ef9e9f-1a22-41c7-8d28-cf0c2470f0a8
+https://filesender.sikt.no/?s=download&token=21680929-cd29-47d7-839c-91c5cf992052
 ## Dataset-3:
-https://filesender.sikt.no/?s=download&token=c7b0ea35-1346-46cd-b5e4-1721846b0742
+https://filesender.sikt.no/?s=download&token=7547e686-11a8-4c62-a19b-67c888a6b904
 
 ## Results:
 
